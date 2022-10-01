@@ -1,0 +1,93 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 650px) {
+
+    .navigation{
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        padding: 0 15px;
+
+        .nav{
+            margin-left: 0px;
+            display: none;
+        }
+
+        .hamburger{
+            display: unset;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+    }
+
+    .jumbotron{
+        width: 90%;
+        height: 70vh;
+        h4{
+            margin-top: 0px;
+        }
+
+        h2{
+            max-width: 250px;
+        }
+
+        button{
+            margin-bottom: 10px;
+        }
+    }
+
+    .aboutme{
+        width: 90%;
+
+        p{
+            line-height: 25px;
+        }
+
+        .skillList{
+            margin-bottom: 50px;
+        }
+    }
+
+    .frontend{
+        width: 90%;
+
+        .frontend--projects{
+            .project{
+                width: 100%;
+            }
+        }
+        
+    }
+
+    .backend{
+        width: 90%;
+
+        h1{
+            max-width: 200px;
+        }
+
+        .backend--projects{
+            .project{
+                width: 100%;
+            }
+        }
+    }
+
+    .contact{
+        width: 90%;
+
+        p{
+            line-height: 25px;
+        }
+
+        a{
+            width: 100%;
+            padding: 15px 42px;
+        }
+    }
+
+    .footer{
+        margin-top: 100px;
+        height: 10vh;
+        text-align: center;
+    }
+
+}
