@@ -15,7 +15,7 @@ export default function BackEnd(){
 
     return (
         <div className='backend'>
-            <h1>Back-End Projects</h1>
+            <h1>Simple Back-End Projects</h1>
             <main className='backend--projects'>
                 {projEl} 
             </main>
