@@ -13,7 +13,7 @@ export default {
             {
                 "id": 2,
                 "name": "Tenzies",
-                "url": "https://tenzies-zr0kr9xx8-henryjrtena.vercel.app/",
+                "url": "https://quizzard-nine.vercel.app/",
                 "madeWith": ['HTML', 'CSS', 'JavaScript', 'ReactJS'],
                 "imgDir": "project-images/tenzies.png",
                 "info": "Simple Tenzies game with JavaScript with Timer"
@@ -21,7 +21,7 @@ export default {
             {
                 "id": 3,
                 "name": "Quizzard",
-                "url": "https://tenzies-zr0kr9xx8-henryjrtena.vercel.app/",
+                "url": "https://quizzard-nine.vercel.app/",
                 "madeWith": ['HTML', 'CSS', 'JavaScript', 'ReactJS'],
                 "imgDir": "project-images/quizzard.png",
                 "info": "Trivia question from OTDB API. User's can select difficulty and category."
