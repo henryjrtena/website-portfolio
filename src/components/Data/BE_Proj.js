@@ -17,6 +17,14 @@ export default {
                 "madeWith": ['HTML', 'CSS', 'JavaScript', 'ReactJS'],
                 "imgDir": "project-images/tenzies.png",
                 "info": "Simple Tenzies game with JavaScript with Timer"
+            },
+            {
+                "id": 3,
+                "name": "Quizzard",
+                "url": "https://tenzies-zr0kr9xx8-henryjrtena.vercel.app/",
+                "madeWith": ['HTML', 'CSS', 'JavaScript', 'ReactJS'],
+                "imgDir": "project-images/quizzard.png",
+                "info": "Trivia question from OTDB API. User's can select difficulty and category."
             }
         ]
     }
