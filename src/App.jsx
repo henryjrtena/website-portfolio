@@ -10,9 +10,12 @@ import Footer from './components/Footer'
 
 function App() {
   function goto__projects(){
-    console.log('hello')
     var goto__ = document.getElementById('projects')
-    goto__.scrollIntoView({ behavior: 'smooth', block: 'start'});
+    console.log(window.innerWidth)
+    if(window.innerWidth>1200)
+      goto__.scrollIntoView({ behavior: 'smooth', block: 'center'});
+    else
+      goto__.scrollIntoView({ behavior: 'smooth', block: 'start'});
   }
   return (
     <div className="App">
