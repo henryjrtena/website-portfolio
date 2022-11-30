@@ -1,12 +1,13 @@
 import React from 'react'
 import dataSkill from './Data/Skills'
+import { nanoid } from 'nanoid' 
 
 export default function About(){
     
     let skillObj = dataSkill.data.skills
     
     const skillsEl = skillObj.map((skill) =>
-        <img src={skill.url} alt={skill.name} />
+        <img src={skill.url} alt={skill.name} key={nanoid()}/>
     )
     
     

@@ -9,11 +9,16 @@ import Footer from './components/Footer'
 
 
 function App() {
+  function goto__projects(){
+    console.log('hello')
+    var goto__ = document.getElementById('projects')
+    goto__.scrollIntoView({ behavior: 'smooth', block: 'start'});
+  }
   return (
     <div className="App">
-      <Navigation />
+      <Navigation goto__projects={goto__projects}/>
       <Overlay />
-      <Jumbotron />
+      <Jumbotron goto__projects={goto__projects}/>
       <About />
       <FrontEnd />
       <BackEnd />

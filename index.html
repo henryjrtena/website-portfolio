@@ -13,5 +13,19 @@
     <script src="https://kit.fontawesome.com/72d2e6a860.js" crossorigin="anonymous"></script>
     <script src=""></script>
     <script type="module" src="/src/main.jsx"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" deter></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/Flip.min.js" deter></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js" deter></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollToPlugin.min.js" deter></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/PixiPlugin.min.js" deter></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/TextPlugin.min.js" deter></script>
+
+    <script>
+      gsap.config({
+        nullTargetWarn: false
+      });
+      gsap.to('.project', {scrollTrigger: '.project', y: 200, duration: 2})
+    </script>
+
   </body>
 </html>
