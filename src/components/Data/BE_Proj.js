@@ -32,7 +32,7 @@ export default {
                 "name": "Point-Set",
                 "url": "https://gilded-gingersnap-c4d5de.netlify.app/",
                 "madeWith": ['HTML', 'CSS', 'JavaScript', 'ReactJS', 'styled-components'],
-                "imgDir": "project-images/quizzard.png",
+                "imgDir": "project-images/point-setter.png",
                 "info": "Users and click anywhere inside the window and will automatically put a circle dot. Can change color of the dot and background"
             }
         ]
