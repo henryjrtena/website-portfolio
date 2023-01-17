@@ -47,7 +47,7 @@ export default function Footer(){
     return (
         <div className='footer' ref={component}>
             <a alt="back to top" onClick={goto__top}>Back to top</a>
-            <Box className='box'>Hello</Box>
+            {/* <Box className='box'>Hello</Box> */}
         </div>
     )
 }
