@@ -41,15 +41,15 @@ export default {
                 "madeWith": ['HTML', 'CSS', 'JavaScript', 'ReactJS'],
                 "imgDir": "project-images/travel-journal.png",
                 "info": "Personal travel journal created with ReactJS."
-            },
-            {
-                "id": 6,
-                "name": "Digital Business Card",
-                "url": "https://henrytena-businesscard.netlify.app/",
-                "madeWith": ['HTML', 'CSS', 'JavaScript', 'ReactJS'],
-                "imgDir": "project-images/business-card.png",
-                "info": "Personal digital business card with toggle for light and dark mode.",
-            }
+            }//,
+            // {
+            //     "id": 6,
+            //     "name": "Digital Business Card",
+            //     "url": "https://henrytena-businesscard.netlify.app/",
+            //     "madeWith": ['HTML', 'CSS', 'JavaScript', 'ReactJS'],
+            //     "imgDir": "project-images/business-card.png",
+            //     "info": "Personal digital business card with toggle for light and dark mode.",
+            // }
         ]
     }
 }
