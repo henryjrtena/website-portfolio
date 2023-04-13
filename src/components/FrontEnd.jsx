@@ -19,7 +19,7 @@ export default function FrontEnd(){
         <div className='frontend' id="projects">
             <h1>Front-End Projects</h1>
             <main className='frontend--projects'>
-                {projEl} 
+                {projEl}
             </main>
         </div>
     )

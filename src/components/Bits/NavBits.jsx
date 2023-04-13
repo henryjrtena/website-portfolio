@@ -12,6 +12,7 @@ export default function NavBits({goto__projects}){
             <li className='nav--list'><a onClick={()=>goto__projects()}>Projects</a></li>
             <li className='nav--list'><a href='#contact'>Contact</a></li>
             <li className='nav--list'><a href='https://github.com/henryjrtena'><i className='fa fa-github'></i></a></li>
+            <li className='nav--list'><a href='https://bitbucket.org/henryjrtena/workspace/repositories'><i className='fa fa-bitbucket'></i></a></li>
         </ul>
     )
 }

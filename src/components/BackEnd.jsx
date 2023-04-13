@@ -20,6 +20,10 @@ export default function BackEnd(){
             <main className='backend--projects'>
                 {projEl} 
             </main>
+            <br></br>
+            <br></br>
+            <br></br>
+            <p>More in my Github and BitBucket repository.</p>
         </div>
     )
 }

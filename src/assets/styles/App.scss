@@ -28,6 +28,9 @@
             font-size: 16px;
             cursor: pointer;
         }
+        .nav--list a:hover{
+            transform: scale(30px);
+        }
         .nav--list a:hover::before{
             content: '';
             width: 90%;
@@ -36,7 +39,7 @@
             z-index: -1;
             background-color: #7aa0ce;
             position: absolute;
-
+            font-size: 30px;
         }
     }
 
