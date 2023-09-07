@@ -15,34 +15,31 @@ const Box = styled.div`
     color: #333;
 `
 
-export default function Footer(){
+export default function Footer() {
 
     const component = useRef(null);
 
-    function goto__top(){
+    function goto__top() {
         var goto__ = document.querySelector('html')
-        goto__.scrollIntoView({ behavior: 'smooth', block: 'start'});
+        goto__.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 
     useEffect(() => {
-    
         let ctx = gsap.context(() => {
-          
-          gsap.from('.box', {
-            x: 300,
-            duration: 2,
-            scrollTrigger: {
-                trigger: '.footer',
-                pin: true,   // pin the trigger element while active
-                start: "top top", // when the top of the trigger hits the top of the viewport
-                end: "+=500", // end after scrolling 500px beyond the start
-                scrub: 1 // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
-            }
-          });
-        }, component); // <- scopes all selector text inside the context to this component (optional, default is document)
-        
-        return () => {}//ctx.revert(); // cleanup! 
-      }, []);
+            gsap.from('.box', {
+                x: 300,
+                duration: 2,
+                scrollTrigger: {
+                    trigger: '.footer',
+                    pin: true,
+                    start: "top top",
+                    end: "+=500",
+                    scrub: 1
+                }
+            });
+        }, component);
+        return () => { }
+    }, []);
 
     return (
         <div className='footer' ref={component}>
