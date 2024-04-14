@@ -1,6 +1,6 @@
 import React from 'react'
 import dataSkill from './Data/Skills'
-import { nanoid } from 'nanoid' 
+import { nanoid } from 'nanoid'
 
 export default function About(){
     let skillObj = dataSkill.data.skills
