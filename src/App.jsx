@@ -23,8 +23,6 @@ function App() {
       <Overlay />
       <Jumbotron goto__projects={goto__projects}/>
       <About />
-      <FrontEnd />
-      <BackEnd />
       <Contact />
       <Footer />
     </div>
