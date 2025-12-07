@@ -5,7 +5,7 @@ export default {
             {
                 "id": 1,
                 "name": ".NET",
-                "url": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/dot-net.svg"
+                "url": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/dot-net-colored.svg"
             },
             {
                 "id": 2,
