@@ -12,9 +12,9 @@ export default function About(){
             <section>
                 <h1>About Me</h1>
                 <p>
-                    Hey there! My name is Henry, and I graduated as a Bachelor of Science in Entertainment and Multimedia Computing but recently become interested with Web Developemnt and Mobile Development.</p>
+                    Hi, I’m Henry. My background is rooted in creative technology, and over time I’ve developed a growing interest in web and mobile development. I’m now dedicated to expanding my skills and creating impactful digital solutions.</p>
                 <p>
-                    I began my web development journey in 2022, where I join an online bootcamp. Since then, I've developed a great passion for building web and mobile applications using the latest tech.
+                    I began experimenting with various tools and platforms, and that sparked my excitement for creating web and mobile apps that people can actually use and enjoy.
                 </p>
                 <br></br>
                 <p>Here are some I've been working with:</p>

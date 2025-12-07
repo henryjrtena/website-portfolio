@@ -4,18 +4,18 @@ export default {
         "skills": [
             {
                 "id": 1,
+                "name": ".NET",
+                "url": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/dot-net.svg"
+            },
+            {
+                "id": 2,
                 "name": "Flutter",
                 "url": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/flutter-colored.svg"
             },
             {
-                "id": 2,
+                "id": 3,
                 "name": "Dart",
                 "url": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/dart-colored.svg"
-            },
-            {
-                "id": 3,
-                "name": ".NET",
-                "url": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/dot-net.svg"
             },
             {
                 "id": 4,
